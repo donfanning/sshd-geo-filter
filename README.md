@@ -6,10 +6,10 @@ Requires MaxMind GeoIP (geoip) libraries - can use _free_ subscription for Count
 ##Prerequisites:
 
 for debian and ubuntu:  
-`apt install geoip-bin geoipupdate` 
+`sudo apt install -y geoip-bin geoipupdate` 
 
-`cp sshdipfilter.sh /usr/local/bin/` 
+`cp sshfilter.sh /usr/local/bin/` 
 
-`chmod +x /usr/local/bin/sshipfilter.sh` 
+`chmod +x /usr/local/bin/sshfilter.sh` 
 
 `cp example_etc_hosts.allow /etc/hosts.allow`
